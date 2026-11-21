@@ -1,0 +1,208 @@
+CRITICAL - 2026-03-30 07:07:43 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "main\.js"
+[Method: GET, Route: main%5C.js]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('main\\.js')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('main\\.js')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 07:43:22 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "main\.js"
+[Method: GET, Route: main%5C.js]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('main\\.js')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('main\\.js')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 07:48:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "main\.js"
+[Method: GET, Route: main%5C.js]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('main\\.js')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('main\\.js')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 07:54:06 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "main\.js"
+[Method: GET, Route: main%5C.js]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('main\\.js')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('main\\.js')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 07:59:31 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "main\.js"
+[Method: GET, Route: main%5C.js]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('main\\.js')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('main\\.js')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 08:04:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "main\.js.map"
+[Method: GET, Route: main%5C.js.map]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('main\\.js.map')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('main\\.js.map')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-30 08:39:46 --> mysqli_sql_exception: Duplicate entry '20213153685' for key 'username' in /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `users` ...', 0)
+#1 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 /home/tartagalgob/recibos.tartagal.gob.ar/system/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/tartagalgob/recibos.tartagal.gob.ar/system/BaseModel.php(1010): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /home/tartagalgob/recibos.tartagal.gob.ar/system/Model.php(860): CodeIgniter\BaseModel->update(Array, Array)
+#7 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Models/UserModel.php(440): CodeIgniter\Model->update('288', Array)
+#8 /home/tartagalgob/recibos.tartagal.gob.ar/app/Controllers/Users.php(63): CodeIgniter\Shield\Models\UserModel->update('288', Array)
+#9 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(933): App\Controllers\Users->update('288')
+#10 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home/tartagalgob/recibos.tartagal.gob.ar/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2026-03-30 08:39:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '20213153685' for key 'username'
+[Method: POST, Route: users/update/288]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `username` = :username:, `active` = :active:, `updated_at` = :updated_at:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(1010): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 5 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(440): CodeIgniter\Model->update('288', [...])
+ 6 APPPATH/Controllers/Users.php(63): CodeIgniter\Shield\Models\UserModel->update('288', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->update('288')
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 08:39:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '20213153685' for key 'username'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `username` = \'20213153685\', `active` = 1, `updated_at` = \'2026-03-30 08:39:46\'
+WHERE `users`.`id` IN (\'288\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `username` = \'20213153685\', `active` = 1, `updated_at` = \'2026-03-30 08:39:46\'
+WHERE `users`.`id` IN (\'288\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `username` = :username:, `active` = :active:, `updated_at` = :updated_at:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(1010): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 7 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(440): CodeIgniter\Model->update('288', [...])
+ 8 APPPATH/Controllers/Users.php(63): CodeIgniter\Shield\Models\UserModel->update('288', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->update('288')
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 08:39:46 --> [Caused by] mysqli_sql_exception: Duplicate entry '20213153685' for key 'username'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `users` SET `username` = \'20213153685\', `active` = 1, `updated_at` = \'2026-03-30 08:39:46\'
+WHERE `users`.`id` IN (\'288\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `username` = \'20213153685\', `active` = 1, `updated_at` = \'2026-03-30 08:39:46\'
+WHERE `users`.`id` IN (\'288\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `username` = \'20213153685\', `active` = 1, `updated_at` = \'2026-03-30 08:39:46\'
+WHERE `users`.`id` IN (\'288\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `username` = :username:, `active` = :active:, `updated_at` = :updated_at:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(1010): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 8 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(440): CodeIgniter\Model->update('288', [...])
+ 9 APPPATH/Controllers/Users.php(63): CodeIgniter\Shield\Models\UserModel->update('288', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->update('288')
+11 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+12 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-30 08:42:09 --> mysqli_sql_exception: Duplicate entry '27134288715' for key 'username' in /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `users` ...', 0)
+#1 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 /home/tartagalgob/recibos.tartagal.gob.ar/system/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/tartagalgob/recibos.tartagal.gob.ar/system/BaseModel.php(1010): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /home/tartagalgob/recibos.tartagal.gob.ar/system/Model.php(860): CodeIgniter\BaseModel->update(Array, Array)
+#7 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Models/UserModel.php(440): CodeIgniter\Model->update('237', Array)
+#8 /home/tartagalgob/recibos.tartagal.gob.ar/app/Controllers/Users.php(63): CodeIgniter\Shield\Models\UserModel->update('237', Array)
+#9 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(933): App\Controllers\Users->update('237')
+#10 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home/tartagalgob/recibos.tartagal.gob.ar/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2026-03-30 08:42:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '27134288715' for key 'username'
+[Method: POST, Route: users/update/237]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `username` = :username:, `active` = :active:, `updated_at` = :updated_at:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(1010): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 5 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(440): CodeIgniter\Model->update('237', [...])
+ 6 APPPATH/Controllers/Users.php(63): CodeIgniter\Shield\Models\UserModel->update('237', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->update('237')
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 08:42:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '27134288715' for key 'username'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `username` = \'27134288715\', `active` = 1, `updated_at` = \'2026-03-30 08:42:09\'
+WHERE `users`.`id` IN (\'237\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `username` = \'27134288715\', `active` = 1, `updated_at` = \'2026-03-30 08:42:09\'
+WHERE `users`.`id` IN (\'237\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `username` = :username:, `active` = :active:, `updated_at` = :updated_at:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH/BaseModel.php(1010): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 7 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(440): CodeIgniter\Model->update('237', [...])
+ 8 APPPATH/Controllers/Users.php(63): CodeIgniter\Shield\Models\UserModel->update('237', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->update('237')
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 08:42:09 --> [Caused by] mysqli_sql_exception: Duplicate entry '27134288715' for key 'username'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `users` SET `username` = \'27134288715\', `active` = 1, `updated_at` = \'2026-03-30 08:42:09\'
+WHERE `users`.`id` IN (\'237\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `username` = \'27134288715\', `active` = 1, `updated_at` = \'2026-03-30 08:42:09\'
+WHERE `users`.`id` IN (\'237\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `username` = \'27134288715\', `active` = 1, `updated_at` = \'2026-03-30 08:42:09\'
+WHERE `users`.`id` IN (\'237\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `username` = :username:, `active` = :active:, `updated_at` = :updated_at:
+WHERE `users`.`id` IN :users.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(1010): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH/Model.php(860): CodeIgniter\BaseModel->update([...], [...])
+ 8 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(440): CodeIgniter\Model->update('237', [...])
+ 9 APPPATH/Controllers/Users.php(63): CodeIgniter\Shield\Models\UserModel->update('237', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->update('237')
+11 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+12 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,220 @@
+CRITICAL - 2026-06-30 01:08:00 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 87
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 648.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(174): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-30 01:08:04 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 87
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 648.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(174): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-30 01:08:07 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 87
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 648.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(174): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-30 09:03:41 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=360 in /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/home/tartagalg...', 201)
+#1 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'tartagalgob_tar...', Object(SensitiveParameterValue), 'tartagalgob_rec...', 3306, '', 0)
+#2 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#4 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#7 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#8 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#9 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(682): setting('Auth.sessionCon...')
+#10 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(700): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#11 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(387): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+#12 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(371): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#13 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Filters/SessionAuth.php(54): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#14 /home/tartagalgob/recibos.tartagal.gob.ar/system/Filters/Filters.php(241): CodeIgniter\Shield\Filters\SessionAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#15 /home/tartagalgob/recibos.tartagal.gob.ar/system/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#16 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('descargar', 'before')
+#17 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#18 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#19 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#20 /home/tartagalgob/recibos.tartagal.gob.ar/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#21 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'tartagalgob_tar...', Object(SensitiveParameterValue), 'tartagalgob_rec...', 3306, '', 0)
+#1 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#6 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#7 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#8 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(682): setting('Auth.sessionCon...')
+#9 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(700): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#10 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(387): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+#11 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(371): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#12 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Filters/SessionAuth.php(54): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#13 /home/tartagalgob/recibos.tartagal.gob.ar/system/Filters/Filters.php(241): CodeIgniter\Shield\Filters\SessionAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#14 /home/tartagalgob/recibos.tartagal.gob.ar/system/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#15 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('descargar', 'before')
+#16 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#18 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#19 /home/tartagalgob/recibos.tartagal.gob.ar/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#20 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#5 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#6 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#7 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(682): setting('Auth.sessionCon...')
+#8 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(700): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#9 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(387): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+#10 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(371): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#11 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Filters/SessionAuth.php(54): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#12 /home/tartagalgob/recibos.tartagal.gob.ar/system/Filters/Filters.php(241): CodeIgniter\Shield\Filters\SessionAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#13 /home/tartagalgob/recibos.tartagal.gob.ar/system/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#14 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('descargar', 'before')
+#15 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#17 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#18 /home/tartagalgob/recibos.tartagal.gob.ar/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#19 {main}
+CRITICAL - 2026-06-30 09:03:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+[Method: GET, Route: descargar]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `context` IS NULL', [], false)
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 5 VENDORPATH/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 6 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 7 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(682): setting('Auth.sessionConfig')
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(700): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(387): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(371): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+11 VENDORPATH/codeigniter4/shield/src/Filters/SessionAuth.php(54): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+12 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Shield\Filters\SessionAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+13 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+14 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('descargar', 'before')
+15 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-30 09:03:43 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'tartagalgob_tar...', Object(SensitiveParameterValue), 'tartagalgob_rec...', 3306, '', 0)
+#1 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#6 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#7 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#8 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(682): setting('Auth.sessionCon...')
+#9 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(700): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#10 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(387): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+#11 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(371): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#12 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Auth.php(189): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#13 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Controllers/RegisterController.php(58): CodeIgniter\Shield\Auth->__call('loggedIn', Array)
+#14 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+#15 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+#16 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#18 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#19 /home/tartagalgob/recibos.tartagal.gob.ar/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#20 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/tartagalgob/recibos.tartagal.gob.ar/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#5 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#6 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#7 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(682): setting('Auth.sessionCon...')
+#8 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(700): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#9 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(387): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+#10 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(371): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#11 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Auth.php(189): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#12 /home/tartagalgob/recibos.tartagal.gob.ar/vendor/codeigniter4/shield/src/Controllers/RegisterController.php(58): CodeIgniter\Shield\Auth->__call('loggedIn', Array)
+#13 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+#14 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+#15 /home/tartagalgob/recibos.tartagal.gob.ar/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#17 /home/tartagalgob/recibos.tartagal.gob.ar/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#18 /home/tartagalgob/recibos.tartagal.gob.ar/public/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#19 {main}
+CRITICAL - 2026-06-30 09:03:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: register]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `context` IS NULL', [], false)
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 5 VENDORPATH/codeigniter4/settings/src/Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 6 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 7 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(682): setting('Auth.sessionConfig')
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(700): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(387): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(371): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+11 VENDORPATH/codeigniter4/shield/src/Auth.php(189): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+12 VENDORPATH/codeigniter4/shield/src/Controllers/RegisterController.php(58): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+13 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\RegisterController->registerView()
+14 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\RegisterController))
+15 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-30 12:36:31 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 517
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 648.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(174): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-30 22:57:28 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 122
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 648.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(174): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

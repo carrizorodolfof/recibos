@@ -1,0 +1,1201 @@
+CRITICAL - 2026-03-11 00:34:53 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 01:40:06 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 06:08:16 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 07:21:36 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 07:21:46 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 07:21:48 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 07:24:05 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 07:24:17 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 07:24:26 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 07:24:36 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 08:14:41 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 08:14:45 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 08:41:33 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 08:42:36 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 08:55:19 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 09:06:26 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 09:27:35 --> CodeIgniter\Shield\Exceptions\LogicException: The user has User Info in Session, so already logged in or in pending login state. If a logged in user logs in again with other account, the session data of the previous user will be used as the new user. Fix your code to prevent users from logging in without logging out or delete the session data. user_id: 109
+[Method: POST, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php on line 648.
+ 1 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(174): CodeIgniter\Shield\Authentication\Authenticators\Session->startLogin(Object(CodeIgniter\Shield\Entities\User))
+ 2 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(71): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\Shield\Controllers\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 09:28:37 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 09:42:17 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 09:48:14 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 09:49:07 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:19:55 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:30:30 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:31:10 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:33:50 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:34:10 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:36:55 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:52:11 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:55:52 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:56:09 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:56:12 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:56:15 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 10:56:29 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:05:11 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:05:31 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:05:40 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:06:57 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:07:06 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:10:15 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:10:20 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:27:22 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:36:13 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:36:29 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:53:17 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 11:54:19 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:03:13 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:03:40 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:04:01 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:04:03 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:11:55 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:11:58 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:12:01 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:33:08 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:33:22 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:33:43 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:34:20 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:42:02 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 12:43:11 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 13:19:39 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 13:27:42 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:03:15 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:15:24 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:16:08 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:17:37 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:17:39 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:17:40 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:20:31 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:21:09 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:36:32 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 17:42:33 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 19:03:15 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 19:21:39 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 19:21:45 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 19:21:51 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 20:57:07 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 21:43:36 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 22:24:11 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 22:24:24 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 22:24:28 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 22:24:33 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 22:42:58 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 22:43:01 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 22:47:51 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 23:10:06 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 23:30:52 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-11 23:30:57 --> ErrorException: Attempt to read property "username" on null
+[Method: GET, Route: descargar]
+in APPPATH/Views/descargar.php on line 83.
+ 1 APPPATH/Views/descargar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', '/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php', 83)
+ 2 SYSTEMPATH/View/View.php(226): include('/home/tartagalgob/recibos.tartagal.gob.ar/app/Views/descargar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('descargar', [], true)
+ 5 APPPATH/Config/Routes.php(17): view('descargar')
+ 6 SYSTEMPATH/CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
