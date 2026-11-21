@@ -66,20 +66,20 @@ foreach ($carpetas as $carpeta) {
 
 <!-- Barra superior institucional -->
 <nav class="navbar muni-header rounded px-3 mb-4">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
-        <a class="navbar-brand d-flex align-items-center gap-3 m-0" href="<?= base_url('descargar') ?>">
-            <img src="<?= base_url('img/logomuni.jpg') ?>" alt="Municipalidad de Tartagal" height="45">
+    <div class="container-fluid d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3">
+        <a class="navbar-brand m-0" href="<?= base_url('descargar') ?>">
+            <img src="<?= base_url('img/logomuni.jpg') ?>" alt="Municipalidad de Tartagal" class="muni-logo" height="45">
         </a>
 
-        <div class="d-flex flex-wrap align-items-center gap-2">
-            <a class="btn btn-muni-azul btn-sm" href="<?= site_url('perfil/cambiar-password') ?>">Cambiar Contraseña</a>
-            <a class="btn btn-salir btn-sm" href="<?= base_url('logout') ?>">Salir</a>
+        <div class="d-flex w-100 w-sm-auto justify-content-center justify-content-sm-end gap-2">
+            <a class="btn btn-muni-azul btn-sm flex-fill flex-sm-grow-0" href="<?= site_url('perfil/cambiar-password') ?>">Cambiar Contraseña</a>
+            <a class="btn btn-salir btn-sm flex-fill flex-sm-grow-0" href="<?= base_url('logout') ?>">Salir</a>
         </div>
     </div>
 </nav>
 
 <div class="row justify-content-center">
-    <div class="col-lg-8">
+    <div class="col-12 col-lg-8">
 
         <!-- Panel de Administración (solo visible para admin) -->
         <?php if ($user->inGroup('admin')): ?>
@@ -87,7 +87,7 @@ foreach ($carpetas as $carpeta) {
                 <div class="card-header py-3">
                     Panel de Administración
                 </div>
-                <div class="card-body d-flex flex-wrap gap-2">
+                <div class="card-body d-grid d-sm-flex gap-2">
                     <a class="btn btn-muni-azul" href="<?= base_url('empleados') ?>">Gestión de Empleados</a>
                     <a class="btn btn-muni-azul" href="<?= base_url('users') ?>">Usuarios</a>
                 </div>
@@ -96,7 +96,7 @@ foreach ($carpetas as $carpeta) {
 
         <!-- Listado de Recibos -->
         <div class="card">
-            <div class="card-header d-flex justify-content-between align-items-center py-3">
+            <div class="card-header d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-1 py-3">
                 <h5 class="muni-title mb-0">Mis Recibos de Sueldo</h5>
                 <span class="text-muted small">CUIL: <strong><?= esc($nombre) ?></strong></span>
             </div>
@@ -105,7 +105,7 @@ foreach ($carpetas as $carpeta) {
                 <?php if (! empty($recibos)): ?>
                     <div class="d-grid gap-2">
                         <?php foreach ($recibos as $recibo): ?>
-                            <a class="btn btn-outline-primary text-start py-2 px-3" href="<?= esc($recibo['url']) ?>" target="_blank">
+                            <a class="btn btn-outline-primary btn-recibo py-2 px-3" href="<?= esc($recibo['url']) ?>" target="_blank">
                                 <?= esc($recibo['nombre']) ?>
                             </a>
                         <?php endforeach; ?>

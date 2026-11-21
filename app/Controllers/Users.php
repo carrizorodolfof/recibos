@@ -9,10 +9,23 @@ class Users extends BaseController
     public function index()
     {
         $model = new UserModel();
-        $q = $this->request->getGet('q');
+        $q = trim((string) $this->request->getGet('q'));
 
-        if ($q) {
-            $model->like('username', $q);
+        $model->select('users.*, empleados.nombre AS nombre_empleado')
+            ->distinct()
+            ->join('empleados', 'empleados.cuil = users.username', 'left');
+
+        if ($q !== '') {
+            $model->join(
+                    'auth_identities',
+                    "auth_identities.user_id = users.id AND auth_identities.type = 'email_password'",
+                    'left'
+                )
+                ->groupStart()
+                    ->like('users.username', $q)
+                    ->orLike('empleados.nombre', $q)
+                    ->orLike('auth_identities.secret', $q)
+                ->groupEnd();
         }
 
         $data = [

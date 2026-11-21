@@ -22,6 +22,10 @@
             --muni-rojo-hover: #a71d2a;
         }
 
+        html, body {
+            overflow-x: hidden;
+        }
+
         body {
             background-color: #f8faf9;
             color: #212529;
@@ -34,7 +38,7 @@
             background-color: #ffffff;
             border-bottom: 3px solid var(--muni-verde);
             padding: 12px 0;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
         }
 
@@ -86,6 +90,23 @@
             border-color: var(--muni-rojo-hover) !important;
         }
 
+        /* Botón de recibo: evita desborde en celular con nombres largos */
+        .btn-recibo {
+            white-space: normal !important;
+            word-break: break-word;
+            overflow-wrap: anywhere;
+            text-align: left;
+            border-color: var(--muni-azul);
+            color: var(--muni-azul);
+            font-weight: 500;
+        }
+
+        .btn-recibo:hover {
+            background-color: var(--muni-azul);
+            border-color: var(--muni-azul);
+            color: #ffffff;
+        }
+
         /* Tablas */
         .table thead th {
             background-color: var(--muni-verde);
@@ -104,10 +125,11 @@
             box-shadow: 0 0 0 0.2rem rgba(21, 115, 71, 0.2);
         }
 
-        /* Corrección del paginador de CodeIgniter (evita el "123siguienteultima") */
+        /* Paginador de CodeIgniter */
         ul.pagination {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             list-style: none;
             padding: 0;
             margin: 20px 0 0 0;
@@ -137,12 +159,34 @@
             border-color: var(--muni-azul);
             font-weight: 600;
         }
+
+        /* Ajustes específicos para pantallas de celular */
+        @media (max-width: 576px) {
+            .muni-header {
+                padding: 10px 0;
+                margin-bottom: 16px;
+            }
+
+            .muni-logo {
+                max-height: 40px;
+                width: auto;
+            }
+
+            .card-body {
+                padding: 1rem;
+            }
+
+            ul.pagination li a {
+                padding: 5px 10px;
+                font-size: 0.85rem;
+            }
+        }
     </style>
 </head>
 
 <body>
 
-<div class="container-fluid mt-4 px-3 px-md-4">    
+<div class="container-fluid mt-3 mt-md-4 px-2 px-sm-3 px-md-4">    
     <?= $this->renderSection('content') ?>
 </div>
 
