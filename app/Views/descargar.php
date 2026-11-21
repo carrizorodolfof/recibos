@@ -1,198 +1,124 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <link rel="shortcut icon" href="<?= base_url('img/logoicono.ico') ?>" />    
-    
-    <title>Recibos</title>
-
-<link rel="stylesheet" href="<?= base_url('bootstrap/css/bootstrap.min.css') ?>">
-<script src="<?= base_url('bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
-
-<!--
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
--->
-    
-
-    <!-- Bootstrap core CSS 
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
--->
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="navbar.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<main>
-
-<!--<div class="container">-->
-<!--
-<nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example">
--->
-  <div class="container-fluid">
-  <div class="container-fluid">
-      <div class="bg-light rounded">
-        <div class="col-sm-12 mx-auto">
-          <br>
-        <center>
-        <a class="navbar-brand" href="">
-          <img src="img/logomuni.jpg" alt="Descripción de la imagen">
-        </a>
-        </center>          
-  <center>
-      <h1>Descargar Recibos <a class="btn btn-danger btn-sm" href="<?= base_url('logout'); ?>">SALIR</a> </h1>
-      <!--<a class="btn btn-danger btn-sm" href="<?= base_url('logout'); ?>">SALIR</a>-->
-</center>
-  <?php
-
-/**
- * This file is part of CodeIgniter Shield.
- *
- * (c) CodeIgniter Foundation <admin@codeigniter.com>
- *
- * For the full copyright and license information, please view
- * the LICENSE file that was distributed with this source code.
- */
-
-
-//ENLISTAR LOS FICHEROS EXISTENTES
-
-$user = auth()->user(); // Get the current logged-in user entity
-$id=auth()->id();
-$nombre=$user->username;
-  
-//-----------------------------------------------------------------------
-
-$listar = null;
-$carpetas = [
-    "archivos/2025/ABRIL 2025/",
-    "archivos/2025/MAYO 2025/",
-    "archivos/2025/JUNIO 2025/",
-    "archivos/2025/AGUINALDO JUNIO 2025/",
-    "archivos/2025/JULIO 2025/",
-    "archivos/2025/AGOSTO 2025/",
-    "archivos/2025/SEPTIEMBRE 2025/",
-    "archivos/2025/OCTUBRE 2025/",
-    "archivos/2025/NOVIEMBRE 2025/",
-    "archivos/2025/AGUINALDO DICIEMBRE 2025/",
-    "archivos/2025/DICIEMBRE 2025/",
-    "archivos/2026/ENERO 2026/",
-    "archivos/2026/FEBRERO 2026/",
-    "archivos/2026/MARZO 2026/",
-    "archivos/2026/ABRIL 2026/",
-    "archivos/2026/MAYO 2026/",
-    "archivos/2026/JUNIO 2026/",
-    "archivos/2026/AGUINALDO JUNIO 2026/",
-    "archivos/2026/JULIO 2026/",
-    "archivos/2026/AGOSTO 2026/",
-    "archivos/2026/SEPTIEMBRE 2026/",
-    "archivos/2026/OCTUBRE 2026/",
-    "archivos/2026/NOVIEMBRE 2026/",
-    "archivos/2026/AGUINALDO DICIEMBRE 2026/",
-    "archivos/2026/DICIEMBRE 2026/"
-];
-
-//echo getcwd()."<br>";
-
-foreach ($carpetas as $carpeta) {
-
-    //echo $carpeta."<br>";
-    if (is_dir($carpeta)) {
-        //echo "Entro <br>";
-        $archivos = scandir($carpeta);
-        foreach ($archivos as $archivo) {
-
-          $elemento=$archivo;
-
-          $dni=trim($nombre);
-          $elementodni_ini=trim(substr( $elemento, strlen($elemento)-12 , 8 ));
-          $primero_pos1=stripos($elemento,"_");
-          $str1=substr($elemento,$primero_pos1+1,-1);
-          $primero_pos2=stripos($str1,"_");
-          $str2=substr($str1,$primero_pos2+1,-1);
-          $primero_pos3=stripos($str2,"_");
-          $str3=substr($str2,$primero_pos3+1,-1);
-          $primero=stripos($str2,"_");
-          $ultimo=strripos($str3,"_");
-          $str_ulti=substr($str3,0,$ultimo);
-          
-          //echo $str_ulti."<br>";
-          if ($archivo != "." && $archivo != ".." && $str_ulti==$nombre) {
-         
-          $listar="<a class='btn btn-outline-primary' href='".$carpeta.$archivo."'>".$archivo."</a><br>".$listar;
-
-          }
-      }
-    }else{
-        //echo "Carpeta NO Encontrada : ".$carpeta."<br>";
-    }
-}
-
-?>
-
-  <div class="bg-light p-3 rounded">
-  <div class="col-sm-12 mx-auto">
-    <center>
-
-<?php
-  echo $listar;
-?>
-
-</center>
-  <br>
-  <center>
-  <a class="btn btn-danger btn-lg btn-block" href="<?= base_url('logout'); ?>">CERRAR SESIÓN</a>
-  <!--<button onclick="history.back();">SALIR</button> -->
-</center>
-
-<center>
-<p class="text-center"><a href="<?= site_url('perfil/cambiar-password') ?>"></p>
-Cambiar Contrasena
-</a>
-</center>
-  <br>
-<center>
-  <?php  if (auth()->user()->inGroup('admin')): ?>
-   <a class="btn btn-primary btn-lg btn-block" href="<?= base_url('/empleados'); ?>">Gestion de Empleados</a>
-  <?php endif;?> 
-</center>
-<br>
-<center>
-  <?php  if (auth()->user()->inGroup('admin')): ?>
-   <a class="btn btn-warning btn-lg btn-block" href="<?= base_url('/users'); ?>">U S U A R I O S</a>
-  <?php endif;?> 
-</center>
-
-
-</div>
-</div>
-  </div>
-  </div>
-
-  </div>
-
-</main>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
+<?= $this->extend('layout') ?>
+
+<?= $this->section('content') ?>
+
+<?php
+$user   = auth()->user();
+$nombre = trim($user->username);
+
+$recibos = [];
+$carpetas = [
+    "archivos/2025/ABRIL 2025/",
+    "archivos/2025/MAYO 2025/",
+    "archivos/2025/JUNIO 2025/",
+    "archivos/2025/AGUINALDO JUNIO 2025/",
+    "archivos/2025/JULIO 2025/",
+    "archivos/2025/AGOSTO 2025/",
+    "archivos/2025/SEPTIEMBRE 2025/",
+    "archivos/2025/OCTUBRE 2025/",
+    "archivos/2025/NOVIEMBRE 2025/",
+    "archivos/2025/AGUINALDO DICIEMBRE 2025/",
+    "archivos/2025/DICIEMBRE 2025/",
+    "archivos/2026/ENERO 2026/",
+    "archivos/2026/FEBRERO 2026/",
+    "archivos/2026/MARZO 2026/",
+    "archivos/2026/ABRIL 2026/",
+    "archivos/2026/MAYO 2026/",
+    "archivos/2026/JUNIO 2026/",
+    "archivos/2026/AGUINALDO JUNIO 2026/",
+    "archivos/2026/JULIO 2026/",
+    "archivos/2026/AGOSTO 2026/",
+    "archivos/2026/SEPTIEMBRE 2026/",
+    "archivos/2026/OCTUBRE 2026/",
+    "archivos/2026/NOVIEMBRE 2026/",
+    "archivos/2026/AGUINALDO DICIEMBRE 2026/",
+    "archivos/2026/DICIEMBRE 2026/"
+];
+
+foreach ($carpetas as $carpeta) {
+    if (is_dir($carpeta)) {
+        $archivos = scandir($carpeta);
+        foreach ($archivos as $archivo) {
+            if ($archivo === "." || $archivo === "..") {
+                continue;
+            }
+
+            $elemento     = $archivo;
+            $primero_pos1 = stripos($elemento, "_");
+            $str1         = substr($elemento, $primero_pos1 + 1, -1);
+            $primero_pos2 = stripos($str1, "_");
+            $str2         = substr($str1, $primero_pos2 + 1, -1);
+            $primero_pos3 = stripos($str2, "_");
+            $str3         = substr($str2, $primero_pos3 + 1, -1);
+            $ultimo       = strripos($str3, "_");
+            $str_ulti     = substr($str3, 0, $ultimo);
+
+            if ($str_ulti == $nombre) {
+                array_unshift($recibos, [
+                    'nombre' => $archivo,
+                    'url'    => base_url($carpeta . $archivo),
+                ]);
+            }
+        }
+    }
+}
+?>
+
+<!-- Barra superior institucional -->
+<nav class="navbar muni-header rounded px-3 mb-4">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand d-flex align-items-center gap-3 m-0" href="<?= base_url('descargar') ?>">
+            <img src="<?= base_url('img/logomuni.jpg') ?>" alt="Municipalidad de Tartagal" height="45">
+        </a>
+
+        <div class="d-flex flex-wrap align-items-center gap-2">
+            <a class="btn btn-muni-azul btn-sm" href="<?= site_url('perfil/cambiar-password') ?>">Cambiar Contraseña</a>
+            <a class="btn btn-salir btn-sm" href="<?= base_url('logout') ?>">Salir</a>
+        </div>
+    </div>
+</nav>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+
+        <!-- Panel de Administración (solo visible para admin) -->
+        <?php if ($user->inGroup('admin')): ?>
+            <div class="card mb-4">
+                <div class="card-header py-3">
+                    Panel de Administración
+                </div>
+                <div class="card-body d-flex flex-wrap gap-2">
+                    <a class="btn btn-muni-azul" href="<?= base_url('empleados') ?>">Gestión de Empleados</a>
+                    <a class="btn btn-muni-azul" href="<?= base_url('users') ?>">Usuarios</a>
+                </div>
+            </div>
+        <?php endif; ?>
+
+        <!-- Listado de Recibos -->
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center py-3">
+                <h5 class="muni-title mb-0">Mis Recibos de Sueldo</h5>
+                <span class="text-muted small">CUIL: <strong><?= esc($nombre) ?></strong></span>
+            </div>
+
+            <div class="card-body">
+                <?php if (! empty($recibos)): ?>
+                    <div class="d-grid gap-2">
+                        <?php foreach ($recibos as $recibo): ?>
+                            <a class="btn btn-outline-primary text-start py-2 px-3" href="<?= esc($recibo['url']) ?>" target="_blank">
+                                <?= esc($recibo['nombre']) ?>
+                            </a>
+                        <?php endforeach; ?>
+                    </div>
+                <?php else: ?>
+                    <div class="alert alert-light border text-center text-muted mb-0 py-4">
+                        No se encontraron recibos disponibles para tu usuario.
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<?= $this->endSection() ?>

@@ -1,94 +1,26 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <link rel="shortcut icon" href="<?= base_url('img/logoicono.ico') ?>" />    
-    <!--<link rel="icon" type="https://cdn.sstatic.net/Sites/es/img/apple-touch-icon.png?v=7739871010e6
-">    -->
-    <title>Recibos</title>
+<?= $this->extend('layout') ?>
 
-<link rel="stylesheet" href="<?= base_url('bootstrap/css/bootstrap.min.css') ?>">
-<script src="<?= base_url('bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<?= $this->section('content') ?>
 
-<!--
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
--->
-    
-
-    <!-- Bootstrap core CSS 
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
--->
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="navbar.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<main>
-
-  <div class="container-fluid">
-<!--
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example">
--->    
-      <!--<div class="container-fluid">-->
-        <a class="navbar-brand" href="<?= base_url();  ?>">
-          <img src="<?= base_url('img/logomuni.jpg'); ?>" alt="Descripción de la imagen">
+<nav class="navbar muni-header rounded px-3 mb-4">
+    <div class="container-fluid d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <a class="navbar-brand m-0" href="<?= base_url() ?>">
+            <img src="<?= base_url('img/logomuni.jpg') ?>" alt="Municipalidad de Tartagal" height="45">
         </a>
 
-        
-        <a class="btn btn-success btn-block btn-md" href="<?= base_url('login'); ?>">Ingresar</a>
-        <a class="btn btn-success btn-block btn-md" href="https://tartagal.gob.ar/sitio/">Municipalidad de Tartagal</a>
-        <a class="btn btn-success btn-block btn-md" href="https://tartagal.gob.ar/sitio/wp-content/uploads/2026/03/Guia-para-Descargar-el-Recibo-de-Sueldo.pdf">Ayuda</a>
-        
-        
-
-    <div>
-      <div class="bg-light rounded">
-        <div class="col-sm-12 mx-auto">
-          <center><h1>MUNICIPALIDAD DE TARTAGAL</h1></center>
-          <!--<center><h3>Gestión: Franco Esteban Francisco Hernández Berni</h3> </center>-->
-          <center><img src="<?= base_url('img/Recibosonline.png'); ?>" width="50%" height="50%" alt="Descripción de la imagen"> </center>
-          <!--<center><img src="<?= base_url('img/Mantenimiento1.png'); ?>" width="50%" height="50%" alt="Descripción de la imagen"> </center>-->
-          
-          <p></p>
-          <p></p>
-
-          <!--
-          <p>
-            <a class="btn btn-primary" href="../components/navbar/" role="button">View navbar docs &raquo;</a>
-          </p>
-          -->
+        <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-muni-azul" href="<?= base_url('login') ?>">Ingresar</a>
+            <a class="btn btn-muni-azul" href="https://tartagal.gob.ar/sitio/" target="_blank">Municipalidad de Tartagal</a>
+            <a class="btn btn-muni-azul" href="https://tartagal.gob.ar/sitio/wp-content/uploads/2026/03/Guia-para-Descargar-el-Recibo-de-Sueldo.pdf" target="_blank">Ayuda</a>
         </div>
-      </div>
     </div>
-    
-  </div>
-</main>
+</nav>
 
+<div class="card">
+    <div class="card-body text-center py-5">
+        <h1 class="muni-title mb-4">MUNICIPALIDAD DE TARTAGAL</h1>
+        <img src="<?= base_url('img/Recibosonline.png') ?>" class="img-fluid rounded" style="max-width: 650px;" alt="Recibos Online">
+    </div>
+</div>
 
-    <script src="<?=base_url('bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
-
-      
-  </body>
-</html>
+<?= $this->endSection() ?>
